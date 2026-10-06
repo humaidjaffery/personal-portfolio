@@ -1,0 +1,9 @@
+{
+  "scanned_at": "2026-10-06",
+  "framework": "vanilla-html",
+  "font_stack": ["Geist", "Agdasima"],
+  "palette": "OKLCH custom properties in tokens.css",
+  "motion": "CSS-only, motion-cut",
+  "spacing": "4-point named scale in tokens.css",
+  "preserved": ["font stack", "palette", "spacing scale", "four-quadrant structure"]
+}

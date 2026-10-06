@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-10-05",
+    "macrostructure": "Bespoke four-quadrant portfolio",
+    "theme": "custom",
+    "theme_axes": "mixed / geometric-sans / multi-brand",
+    "vibe": "four products, one builder",
+    "enrichment": "real project screenshots",
+    "brief": "Humaid Jaffery personal project portfolio"
+  },
+  {
+    "date": "2026-10-06",
+    "macrostructure": "Bespoke four-quadrant portfolio with asymmetric inset canvases",
+    "theme": "custom",
+    "theme_axes": "mixed / geometric-sans / multi-brand",
+    "vibe": "layered product evidence around one builder",
+    "enrichment": "user-supplied screenshots and prototype motion",
+    "brief": "Replace the single project screenshots with project-specific, overlapping inset compositions"
+  }
+]

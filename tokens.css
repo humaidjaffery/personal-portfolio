@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Geist:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --font-display: "Geist", ui-sans-serif, sans-serif;
+  --font-body: "Geist", ui-sans-serif, sans-serif;
+  --font-cyber: "Agdasima", "Arial Narrow", sans-serif;
+
+  --color-page: oklch(14% 0.018 275);
+  --color-paper: oklch(98% 0.009 82);
+  --color-ink: oklch(20% 0.018 278);
+  --color-ink-inverse: oklch(96% 0.012 275);
+  --color-muted: oklch(65% 0.018 278);
+  --color-focus: oklch(52% 0.22 295);
+  --color-transparent: oklch(0% 0.005 278 / 0);
+  --color-profile-ring: oklch(93% 0.018 76 / 0.82);
+  --color-profile-gradient: linear-gradient(
+    to top,
+    oklch(10% 0.014 278 / 0.94) 0%,
+    oklch(10% 0.014 278 / 0.6) 44%,
+    oklch(10% 0.014 278 / 0) 100%
+  );
+
+  --dream-paper: oklch(97% 0.016 74);
+  --dream-paper-2: oklch(95% 0.026 310);
+  --dream-ink: oklch(24% 0.04 300);
+  --dream-muted: oklch(43% 0.035 300);
+  --dream-accent: oklch(52% 0.19 310);
+  --dream-accent-2: oklch(70% 0.15 76);
+  --dream-outline: oklch(52% 0.19 315);
+  --dream-veil: oklch(14% 0.015 300 / 0.035);
+  --dream-field: radial-gradient(circle at 10% 12%, oklch(82% 0.11 305 / 0.28), transparent 34%), radial-gradient(circle at 92% 8%, oklch(87% 0.1 78 / 0.31), transparent 38%), var(--dream-paper);
+  --dream-tag: oklch(91% 0.045 310);
+
+  --library-paper: oklch(98% 0.012 310);
+  --library-ink: oklch(18% 0.012 300);
+  --library-muted: oklch(41% 0.028 300);
+  --library-accent: oklch(49% 0.2 305);
+  --library-accent-2: oklch(68% 0.15 72);
+  --library-outline: oklch(50% 0.2 304);
+  --library-veil: oklch(14% 0.015 300 / 0.04);
+  --library-field: radial-gradient(circle at 90% 10%, oklch(88% 0.075 72 / 0.36), transparent 36%), radial-gradient(circle at 8% 92%, oklch(87% 0.085 304 / 0.34), transparent 40%), var(--library-paper);
+  --library-tag: oklch(92% 0.04 304);
+
+  --cyber-paper: oklch(11% 0.026 285);
+  --cyber-paper-2: oklch(16% 0.042 286);
+  --cyber-ink: oklch(95% 0.012 285);
+  --cyber-muted: oklch(79% 0.035 245);
+  --cyber-accent: oklch(79% 0.17 192);
+  --cyber-accent-2: oklch(63% 0.25 308);
+  --cyber-outline: oklch(75% 0.19 200);
+  --cyber-veil: oklch(8% 0.018 285 / 0.16);
+  --cyber-field: radial-gradient(circle at 8% 16%, oklch(38% 0.13 305 / 0.32), transparent 34%), radial-gradient(circle at 96% 88%, oklch(40% 0.12 205 / 0.25), transparent 38%), var(--cyber-paper);
+  --cyber-tag: oklch(23% 0.075 286);
+
+  --clean-paper: oklch(17% 0.04 158);
+  --clean-paper-2: oklch(21% 0.05 158);
+  --clean-ink: oklch(95% 0.018 150);
+  --clean-muted: oklch(78% 0.035 150);
+  --clean-accent: oklch(70% 0.13 150);
+  --clean-accent-2: oklch(68% 0.16 42);
+  --clean-outline: oklch(74% 0.14 150);
+  --clean-veil: oklch(10% 0.025 158 / 0.14);
+  --clean-field: radial-gradient(circle at 84% 18%, oklch(36% 0.09 156 / 0.32), transparent 38%), var(--clean-paper);
+  --clean-tag: oklch(25% 0.055 158);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --text-xs: 0.64rem;
+  --text-sm: 0.8rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-2xl: 2.4414rem;
+  --text-3xl: 3.0518rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+
+  --rule-thin: 1px;
+  --rule-strong: 2px;
+  --radius-round: 50%;
+  --radius-tag: 999px;
+  --radius-shot: 0.85rem;
+  --media-height: 24rem;
+  --media-height-compact: 22rem;
+  --media-label-width: 11rem;
+  --shadow-profile: 0 1.5rem 4rem oklch(8% 0.016 278 / 0.42);
+  --shadow-shot: 0 1.25rem 2.5rem oklch(8% 0.018 278 / 0.18);
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-profile: 100;
+}
