@@ -115,7 +115,7 @@ img {
   position: relative;
   z-index: var(--z-base);
   width: calc(100% - (2 * var(--space-md)));
-  height: var(--media-height);
+  height: clamp(var(--media-height), 62vw, 40rem);
   flex: 0 0 auto;
   margin: var(--space-md) var(--space-md) 0;
 }
@@ -211,7 +211,7 @@ img {
 }
 
 .project__media--cyber {
-  height: var(--media-height-compact);
+  height: clamp(var(--media-height-compact), 58vw, 36rem);
 }
 
 .media-card--cyber-brain {
@@ -468,7 +468,7 @@ img {
     position: absolute;
     top: 5%;
     bottom: 5%;
-    width: 48%;
+    width: 42%;
     height: 90%;
     margin: 0;
   }
@@ -554,7 +554,7 @@ img {
 
   .project__content {
     position: absolute;
-    width: 39%;
+    width: 35%;
     max-height: 84%;
     flex: 0 0 auto;
     gap: clamp(var(--space-xs), 1.1vh, var(--space-sm));
@@ -562,11 +562,11 @@ img {
   }
 
   .project--left .project__content {
-    left: 54%;
+    left: 47%;
   }
 
   .project--right .project__content {
-    right: 44%;
+    right: 47%;
   }
 
   .project--top .project__content {
@@ -627,20 +627,6 @@ img {
 
   .profile p {
     font-size: clamp(0.62rem, 0.75vw, 0.78rem);
-  }
-}
-
-@media (min-width: 90rem) {
-  .project__content {
-    width: 37%;
-  }
-
-  .project--left .project__content {
-    left: 54%;
-  }
-
-  .project--right .project__content {
-    right: 44%;
   }
 }
 
