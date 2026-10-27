@@ -12,7 +12,8 @@
   --color-muted: oklch(65% 0.018 278);
   --color-focus: oklch(52% 0.22 295);
   --color-transparent: oklch(0% 0.005 278 / 0);
-  --color-profile-ring: oklch(93% 0.018 76 / 0.82);
+  --color-divider: oklch(98.5% 0.005 275);
+  --color-profile-ring: var(--color-divider);
   --color-profile-gradient: linear-gradient(
     to top,
     oklch(10% 0.014 278 / 0.94) 0%,
@@ -90,12 +91,13 @@
 
   --rule-thin: 1px;
   --rule-strong: 2px;
+  --rule-divider: var(--space-sm);
+  --rule-profile: var(--space-xs);
   --radius-round: 50%;
   --radius-tag: 999px;
   --radius-shot: 0.85rem;
   --media-height: 24rem;
   --media-height-compact: 22rem;
-  --media-label-width: 11rem;
   --shadow-profile: 0 1.5rem 4rem oklch(8% 0.016 278 / 0.42);
   --shadow-shot: 0 1.25rem 2.5rem oklch(8% 0.018 278 / 0.18);
 
